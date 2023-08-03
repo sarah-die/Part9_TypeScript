@@ -34,7 +34,8 @@ const calculateExercises = (dailyEx: number[], target: number): CalculatedExerci
         switch (rating) {
             case 1: return "great. congrats!";
             case 2: return "not too bad but could do better";
-            case 3: return "bad. do more sport!"
+            case 3: return "bad. do more sport!";
+            default: return "";
         }
     }
     const ratingDescription: string = getRatingDescription();
