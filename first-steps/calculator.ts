@@ -29,3 +29,5 @@ try {
     // here error.message can't be used
     console.log(errorMessage);
 }
+
+console.log(process.argv);
