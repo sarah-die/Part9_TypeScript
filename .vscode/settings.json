@@ -3,6 +3,7 @@
         "./b-first-steps",
         "./b-exercises",
         "./c-flight-diary",
+        "./patientor-backend",
         "./patientor"
     ]
 }
