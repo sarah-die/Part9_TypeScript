@@ -1,6 +1,6 @@
 // return: number of days, number of training days, original target value, calculated average time,
 // boolean (if target was reached), rating 1-3 (how well target was matched), text value explaining the rating
-interface CalculatedExercisesValues {
+export interface CalculatedExercisesValues {
   periodLength: number;
   trainingDays: number;
   target: number;
@@ -12,7 +12,7 @@ interface CalculatedExercisesValues {
 
 // calculate average time of daily exercise hours and compare to daily target amount
 // input: array[daily exercise hours]
-const calculateExercises = (
+export const calculateExercises = (
   dailyEx: number[],
   target: number
 ): CalculatedExercisesValues => {
