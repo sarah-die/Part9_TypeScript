@@ -2,6 +2,7 @@
     "eslint.workingDirectories": [
         "./b-first-steps",
         "./b-exercises",
-        "./c-flight-diary"
+        "./c-flight-diary",
+        "./patientor"
     ]
 }
