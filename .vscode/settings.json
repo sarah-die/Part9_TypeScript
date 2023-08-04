@@ -1,6 +1,6 @@
 {
     "eslint.workingDirectories": [
         "./b-first-steps",
-        "./first-exercises"
+        "./b-exercises"
     ]
 }
